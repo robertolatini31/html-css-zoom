@@ -1,5 +1,43 @@
+:root {
+    --darker-color: #000000;
+    --dark-color: #222222;
+    --light_dark-color: #4A4A4A;
+    --success-color: #4BC800;
+    --cross-color: #D12B2A;
+    --light-color: #EEF8FB;
+    --lighter-color: white;
+}
+
+/* #region *** Common ***  */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* #endregion *** Common ***  */
+
+/* #region *** Utility ***  */
+
+.flex {
+    display: flex;
+}
+
+/* #endregion *** Utility ***  */
+
+/* #region *** Header ***  */
+
+header {
+    background-color: var(--darker-color);
+    min-height: 30px;
+}
+
+.speaker_view, .extend_view {
+    color: white;
+}
+
+/* #region *** Header ***  */
