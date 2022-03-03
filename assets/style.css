@@ -19,7 +19,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    max-width: 1440px;
 }
 
 /* #endregion *** Common ***  */
@@ -78,7 +77,6 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 10px;
-    max-width: 1440px;
     background-color: var(--darker-color);
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -109,23 +107,32 @@ main {
 
 footer {
     justify-content: space-between;
+    color: var(--lighter-color);
+    background-color: var(--darker-color);
 }
-
-
 
 footer p {
     font-size: 11px;
 }
 
-
-.mute_mic , .stop_video{
-    text-align: center;
-    padding: 10px;
+.footer_icon {
+    font-size: 20px;
 }
 
 .up {
     align-self: center;
     font-size: 12px;
+}
+
+.share_screen i {
+    color: var(--success-color);
+}
+
+.right_footer {
+    align-items: center;
+    background-color: var(--light_dark-color);
+    color: var(--cross-color);
+    font-weight: 500;
 }
 
 /* #endregion *** Footer ***  */
