@@ -33,11 +33,21 @@ body {
 
 header {
     background-color: var(--darker-color);
-    min-height: 30px;
+    min-height: 35px;
+    justify-content: end;
+    align-items: center;
+    font-size: 12px;
 }
+
 
 .speaker_view, .extend_view {
     color: white;
+    padding: 5px;
+    background-color: var(--light_dark-color);
+    border-radius: 5px;
 }
 
+.extend_view {
+    margin-right: 5px;
+}
 /* #region *** Header ***  */
