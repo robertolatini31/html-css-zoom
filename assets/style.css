@@ -6,7 +6,7 @@
     --cross-color: #D12B2A;
     --light-color: #EEF8FB;
     --lighter-color: white;
-    --lighter_dark-color: #64717eb3;
+    --lighter_dark-color: #64717e7c;
 
 }
 
@@ -38,6 +38,13 @@ body {
     position: absolute;
 }
 
+.text_center {
+    text-align: center;
+}
+
+.p_10 {
+    padding: 10px;
+}
 /* #endregion *** Utility ***  */
 
 /* #region *** Header ***  */
@@ -72,6 +79,9 @@ main {
     flex-wrap: wrap;
     row-gap: 10px;
     max-width: 1440px;
+    background-color: var(--darker-color);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .webcam_user{
@@ -93,6 +103,29 @@ main {
     font-size: 12px;
 }
 
-
-
 /* #endregion *** Main ***  */
+
+/* #region *** Footer ***  */
+
+footer {
+    justify-content: space-between;
+}
+
+
+
+footer p {
+    font-size: 11px;
+}
+
+
+.mute_mic , .stop_video{
+    text-align: center;
+    padding: 10px;
+}
+
+.up {
+    align-self: center;
+    font-size: 12px;
+}
+
+/* #endregion *** Footer ***  */
