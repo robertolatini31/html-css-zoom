@@ -108,7 +108,7 @@ main {
 footer {
     justify-content: space-between;
     color: var(--lighter-color);
-    background-color: var(--darker-color);
+    background-color: var(--dark-color);
 }
 
 footer p {
