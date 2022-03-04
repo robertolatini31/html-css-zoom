@@ -19,6 +19,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    max-width: 1440px;
+    min-width: 630px;
 }
 
 /* #endregion *** Common ***  */
@@ -80,11 +82,13 @@ main {
     background-color: var(--darker-color);
     padding-top: 2rem;
     padding-bottom: 1rem;
+    height: 80vh;
+    overflow: scroll;
 }
 
 .webcam_user{
     max-width: calc(100% / 8);
-    min-width: 100px;
+    min-width: 165px;
 }
 
 .webcam_user img {
