@@ -19,8 +19,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    max-width: 1440px;
-    min-width: 630px;
+    background-color: var(--darker-color);
 }
 
 /* #endregion *** Common ***  */
@@ -52,11 +51,11 @@ body {
 
 header {
     background-color: var(--darker-color);
-    min-height: 35px;
     justify-content: end;
     align-items: center;
     font-size: 11px;
     column-gap: 5px;
+    height: 30px;
 }
 
 
@@ -75,24 +74,29 @@ header {
 /* #region *** Main ***  */
 
 main {
-    column-gap: 5px;
+    overflow-y: auto;
+}
+
+.container {
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 10px;
-    background-color: var(--darker-color);
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    height: 80vh;
-    overflow: scroll;
+    max-width: 1440px;
+    padding: 3rem;
+    height: calc(100vh - 85px);
+    margin: 0 auto;
 }
 
 .webcam_user{
-    max-width: calc(100% / 8);
+    max-width: calc(100% / 6);
     min-width: 165px;
+    padding: 5px;
 }
 
 .webcam_user img {
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .webcam_user .name_user {
@@ -113,6 +117,8 @@ footer {
     justify-content: space-between;
     color: var(--lighter-color);
     background-color: var(--dark-color);
+    height: 55px;
+    overflow: hidden;
 }
 
 footer p {
@@ -120,12 +126,12 @@ footer p {
 }
 
 .footer_icon {
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .up {
     align-self: center;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .share_screen i {
@@ -137,6 +143,7 @@ footer p {
     background-color: var(--light_dark-color);
     color: var(--cross-color);
     font-weight: 500;
+    height: 100%;
 }
 
 /* #endregion *** Footer ***  */
